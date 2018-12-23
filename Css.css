@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding:0;
 }
-section{
+.bg{
   position: absolute;
   top: 0;
   left: 0;
@@ -21,22 +21,4 @@ section{
   100%{
     filter: hue-rotate(0deg);
   }
-}
-section:before{
-  content:'';
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-top:100vh solid transparent;
-  border-left:100vh solid #fff;
-  opacity: 0.1;
-}
-section:after{
-  content:'';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border-top:100vh solid transparent;
-  border-right:100vh solid #fff;
-  opacity: 0.1;
 }
